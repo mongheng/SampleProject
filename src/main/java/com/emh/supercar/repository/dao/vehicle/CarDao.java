@@ -3,7 +3,11 @@ package com.emh.supercar.repository.dao.vehicle;
 import java.util.List;
 
 import com.emh.supercar.model.vehicle.Car;
-
+/**
+ * 
+ * @author earmongheng
+ *
+ */
 public interface CarDao {
 
 	public int save(final Car car) throws Exception;
