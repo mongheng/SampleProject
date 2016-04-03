@@ -57,6 +57,11 @@ public class CarController {
 		return carForSaleRecordBusiness.selectAllCar();
 	}
 	
+/*	@RequestMapping(value="/", method=RequestMethod.GET)
+	public String index(){
+		return "index";
+	}*/
+	
 	@RequestMapping(value = "home", method = RequestMethod.GET)
 	public ModelAndView hometest(@ModelAttribute("car")Car car, ModelMap mmap){
 		
